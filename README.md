@@ -1,2 +1,6 @@
 # Parkinsons-Telemonitoring-Regression-Model
 Using machine learning, this research forecasts total_UPDRS scores from a Parkinson telemonitoring dataset. The evaluation of models like the Extra Trees Regressor and Random Forest Regressor was based on RMSE, MAE, and MSE. In addition, a proper feature engineering was carried out to ensure the most relevant attributes fed into the models. 
+
+This research project is about prediction of severity aspects in consecution with Parkinson's syndrome symptoms using machine learning techniques on the Oxford Parkinson’s Disease Telemonitoring dataset. For the prediction of total_UPDRS (a measure of severity), different regression models like Extra Trees Regressor and Random Forest Regressor are used. Feature engineering involves numerical and categorical feature treatment while avoiding data leakage using identifiers or partial measures such as motor_UPDRS. Among all tested models, the Extra Trees Regressor achieved the best performance with an RMSE of 1.8350, an MAE of 1.0431, and an R² of 0.9698, which make evident the robustness and accuracy of the method in relation to nonlinearities. The project demonstrates how ensemble learning methods may create new ways of accurately monitoring diseases and provides insight on feature importance for future medical applications and research.
+
+https://youtu.be/6MIHNma3NQ8
